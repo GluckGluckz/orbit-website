@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Orbit">
+  <defs>
+    <linearGradient id="ring" x1="24" y1="18" x2="105" y2="111" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3EFFF"/><stop offset=".42" stop-color="#C9BBFF"/><stop offset="1" stop-color="#8D73FF"/>
+    </linearGradient>
+    <radialGradient id="pearl" cx="0" cy="0" r="1" gradientTransform="translate(57 54) rotate(51) scale(27)">
+      <stop stop-color="#FFF"/><stop offset=".34" stop-color="#EEE9FF"/><stop offset=".72" stop-color="#C6B8FF"/><stop offset="1" stop-color="#8C74E9"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="64" r="47" fill="none" stroke="url(#ring)" stroke-width="7" stroke-linecap="round" stroke-dasharray="258 38" transform="rotate(-51 64 64)"/>
+  <circle cx="64" cy="64" r="15" fill="url(#pearl)"/><ellipse cx="59" cy="57" rx="4.5" ry="3.5" fill="#FFF" opacity=".72"/>
+</svg>
